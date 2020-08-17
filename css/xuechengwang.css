@@ -1,0 +1,486 @@
+* {
+	   margin: 0;
+	   padding: 0;
+}
+
+.c {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #f3f5f7;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	height: 40px;
+	margin: 30px auto;
+}
+
+.logo {
+	float: left;
+	width: 194px;
+	height: 40px;
+}
+
+.nav {
+	float: left;
+	margin-left: 70px;
+}
+
+ul li {
+	list-style: none;
+}
+
+.nav ul li {
+	float:left;
+}
+
+.nav ul li a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	font-size: 18px;
+	color: #050505;
+}
+
+.nav ul li a:hover {
+	color: #00a4ff;
+	border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+	float:left;
+	margin-left: 80px;
+	width: 410px;
+	height: 40px;
+}
+
+.search input {
+	float:left;
+	width: 344px;
+	height: 38px;
+	padding-left: 15px;
+	border: 1px solid #00a4ff;
+	border-right: 0;
+	color: #dfe0e2;
+	font-style: 14px;
+}
+
+.search button {
+	float: left;
+	height: 40px;
+	width: 50px;
+	/* 把按钮默认边框去掉*/
+	border: 0;
+	background-image: url(../images/btn.png);
+}
+
+.user {
+	float: right;
+	margin-right: 35px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color:#666;	
+}
+
+.user img {
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.banner {
+	background-color: #1c036c;
+	height: 420px;
+}
+
+.banner .c {
+	height: 420px;
+	background-image: url(../images/banner2.png);
+}
+
+.banner .c .subnav {
+	float:left;
+	height: 360px;
+	width: 190px;
+	padding: 30px 0;
+	background-color: rgba(19,1,75,.3);
+}
+
+.banner .c .subnav ul li a {
+	color: white;
+	display:block;
+	height: 40px;
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.banner .c .subnav ul li a:hover {
+	background-color: #1c036c;	
+	color: #00b4ff;
+}
+
+.course {
+	float: right;
+	margin-top: 50px;
+	height: 300px;
+	width: 233px;
+	background-color: #fff;
+}
+
+.course h2 {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #9bceea;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.course .bd {
+	padding: 0 20px;
+}
+.course .bd ul li {
+	padding: 15px 0;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.course .bd ul li p {
+	color: #e7e7e7;
+	font-size: 12px;
+}
+
+.course .bd ul li h4 {
+	font-size: 14px;
+	font-style: normal;
+	color: #d0d0d0;
+	
+}
+
+.course .bd a {
+	display: block;
+	margin-top: 5px;
+	width: 198px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border: 1px solid #9cd2ff;
+	color: #9cd2ff;
+}
+
+.goods {
+	height: 40px;
+	line-height: 40px;
+	box-shadow: 0 2px 2px 2px rgba(0,0,0,.1);
+	margin-top: 10px;
+	padding: 20px 0;
+	background-color: #fff;	
+}
+
+.goods h3 {
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+	color: #00a4ff;
+}
+
+.goods ul {
+	float: left;
+	margin-left: 30px;
+}
+.goods ul li {
+	float: left;
+	padding: 0 30px;
+	border-left: 1px solid #bfbfbf;
+}
+
+.goods ul li a {
+	color: #454545;
+	font-size: 16px;
+}
+
+.goods ul li a:hover {
+	color: #00a4ff;
+}
+
+.goods .mod {
+	display: block;
+	float: right;
+	margin-right: 25px;
+	font-size: 14px;
+	color:#42b2ff;
+}
+
+.box {
+	margin-top: 35px;
+	height: 600px;
+}
+
+.box hd {
+	height: 35px;
+	line-height: 35px;
+}
+
+.box .hd h3 {
+	float: left;
+	font-weight: 400;
+	font-size: 20px;
+	color: #494949;
+}
+
+.box .hd a {
+	display: block;
+	float: right;
+	margin-right: 22px;
+	font-size: 12px;
+	color: #a5a5a5;
+}
+
+.box .bd {
+	height: 558px;
+}
+
+.box .bd ul {
+	float: left;
+	width: 1220px;
+	margin-top: 20px;
+}
+
+.box .bd ul li {
+	position: relative;
+	float: left;
+	height: 269px;
+	width: 228px;
+	margin: 0 15px 15px 0;
+	background-color: #fff;
+}
+
+.box .bd ul li em img {
+	position: absolute;
+	top:4px;
+	right:-4px;
+}
+
+.box .bd ul li >img {
+	width: 100%;
+}
+
+.box .bd ul li .info {
+	padding: 22px 20px 25px 28px;
+}
+
+.box .bd ul li .info h3{
+	font-size: 14px;
+	font-weight: normal;
+	color:#050505;
+}
+
+.box .bd ul li .info span {
+	font-size: 12px;
+	color: #ff7c2d;
+}
+
+.box .bd ul li .info p {
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+}
+
+.upbox {
+	height: 480px;
+	margin-top: 45px;
+}
+
+.upbox .level {
+	height: 50px;
+	line-height: 50px;
+}
+
+.upbox .level h3{
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	color: #494949;
+}
+
+.upbox .level ul{
+	margin-left: 290px;
+	float: left;
+}
+
+.upbox .level ul li{
+	float: left;
+	margin-left: 65px;
+}
+
+.upbox .level ul li a{
+	font-size: 16px;
+	color: #868686;
+}
+
+.upbox .level ul li a:hover {
+	color: #86c7fc;
+}
+
+.upbox .door {
+	margin-top: 25px;
+	height: 392px;
+}
+
+.upbox .door .left {
+	display: inline-block;
+	float: left;
+	height: 392px;
+	width: 228px;
+}
+
+.upbox .door.left img {
+	width: 100%;	
+}
+
+.upbox .door .right{
+	float: left;
+	margin-left: 15px;
+	height: 392px;
+	width: 957px;
+}
+
+.upbox .door .right .happy {
+	float: left;
+	width: 957px;
+	height: 100px;
+}
+
+/* .upbox .door .right .happy img {
+	width:100%;
+}
+ */
+.upbox .door .right .all {
+	float: left;
+	height: 270px;
+	margin-top:25px;
+}
+
+.upbox .right .all ul {
+	float: left;
+	width: 1000px;
+}
+
+.upbox .right .all ul li {
+	float: left;
+    margin-right: 14px;
+}
+
+.upbox .right .all ul li .one {
+	width: 228px;
+	height: 269px;
+	background-color: #fff;
+}
+
+.upbox .right .all ul li .one img {
+	width: 100%;
+}
+.upbox .right .all ul li .one .info {
+	padding: 22px 20px 25px 28px;
+}
+
+.upbox .right .all ul li .one .info h3 {
+	font-size: 14px;
+	font-weight: normal;
+	color:#050505;
+}
+
+.upbox .right .all ul li .one .info span {
+	font-size: 12px;
+	color: #ff7c2d;
+}
+
+.upbox .right .all ul li .one .info p {
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+}
+
+.footer {
+	margin-top: 40px;
+	height: 420px;
+	width: 100%;
+	background-color: #fff;
+}
+.footer .aim {
+	float: left;
+	margin: 35px 0 0 25px;
+	width: 450px;
+	height: 200px;
+}
+
+.footer .aim p {
+	margin: 25px 0;
+	font-size: 12px;
+	color: #666666;
+}
+
+.footer .aim a {
+	display: block;
+	width: 118px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border: 1px solid #00a4ff;
+	color: #00a4ff;
+}
+
+.footer .about {
+	float: right;
+	margin: 35px 10px 0 0;
+	width: 565px;
+	height: 260px;
+}
+
+.footer .about dl {
+	float: left;
+	margin-right: 65px;
+}
+.footer .about dl dt {
+	color: #9e9e9e;
+	font-size: 16px;
+}
+
+.footer .about dl dd a {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #333333;
+}
+
+.footer .about dl dd a:hover {
+	color: #00a4ff;
+}
+
+.post {
+	position: absolute;
+	top: 900px;
+	left: 150px;
+	height: 430px;
+	width: 185px;
+}
+
+.post ul li {
+	margin-top: 20px;
+}
+
+.post ul li a {
+	font-size: 14px;
+	color: #000;
+}
+
+.post ul li a:hover {
+	color: #b8ddff;
+}
